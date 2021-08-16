@@ -1,0 +1,136 @@
+/*Version: 1.5*/
+*{box-sizing: border-box;}
+table{ width: 100%;border-collapse: collapse;border-spacing: 0;}
+/* currency listing table*/
+body .ccpw_all_currency_list_table table td, body .ccpw_all_currency_list_table table th{ border: #d6d6d6 solid; border-width: 0 1px 1px 1px; text-align: left;font-family: inherit; padding: 8px 12px; vertical-align:middle;}
+body .ccpw_all_currency_list_table table {margin: 0;    width: 100%;}
+body .ccpw_all_currency_list_table table{color: #000;}
+body .ccpw_all_currency_list_table table tr:last-child {    border-bottom: 0;}
+body .ccpw_all_currency_list_table table tr:first-child {    border-top: #d6d6d6 1px solid;}
+body .ccpw_all_currency_list_table table tr:nth-child(even){ background: #ffffff;}
+body .ccpw_all_currency_list_table table tr:nth-child(odd){ background: #f8f8f8;}
+
+/*List widget & ticker*/
+body .tickercontainer{height:30px; overflow:hidden;}
+body .ccpw-widget table td,body .ccpw-widget table th{ border: #d6d6d6 solid; border-width: 0 1px 1px 0; text-align: left;font-family: inherit; padding: 8px 15px; vertical-align:middle;}
+body .ccpw-widget{width: 100%;overflow: hidden;overflow-x: hidden;overflow-x: auto;border: 1px solid #000;background-color: #eee;color: #000;}
+body .ccpw-widget table{color: #000;}
+body .ccpw-widget table {margin: 0;    width: 100%;}
+body .ccpw-widget table tr:last-child {    border-bottom: 0;}
+body .ccpw-widget table tr:first-child {    border-top: #d6d6d6 1px solid;}
+body .ccpw_all_currency_list_table table tr select{margin: 0; width: 100%; height: 2.8em; border-radius: 5px; background-color: #fff; background-image: url('../images/select-arrow.png') !important; background-repeat: no-repeat;  background-position: calc(100% - 10px) 50%; background-size: 10px; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; appearance: none; padding: 0 25px 0 10px; border: #d6d6d6 1px solid; }
+.textwidget table thead tr th:nth-child(2), .textwidget table thead tr th:nth-child(3), .textwidget table tbody tr td:nth-child(2), .textwidget table tbody tr td:nth-child(3){display: none;}
+.ccpw_error_msg_show {margin-top: 40px;color: #ff0000;font-size: 20px;}
+.ccpw_cryptocurrency_not_select {color: #ff0000;}
+.ccpw_loader_img { position: absolute;}
+.ccpw_custom-pagination, .ccpw_cp-table {display: none;}
+.ccpw_next-btn {margin-right: 0px;}
+.ccpw_prev-btn,.ccpw_next-btn {background: #000;color: #fff;padding: 10px 10px 10px 10px;margin-right: 40px; display:inline-block; margin-top:10px;}
+#content .entry-content .ccpw_custom-pagination .ccpw_prev-btn:hover, #content .entry-content .ccpw_custom-pagination .ccpw_next-btn:hover {color: #fff}
+.text-center{text-align: center;}
+img.ccpw_img_none { margin-right: 3px;}
+img.ccpw_img_none:first-child { max-width: 20px; display: inline-block;}
+.ccpw_up_img, .ccpw_down_img{ max-width: 12px; display: inline-block;vertical-align: text-top;margin-right: 3px;}
+.ccpwwebticker li{ font-size: 11px;display: inline-block;}
+.ccpwwebticker li {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center;  align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 0; }
+.ccpwwebticker li p{display: inline-block;margin: 0; margin-right: 20px;float: left;margin-top: -1px;font-weight: 400; line-height:inherit;}
+.ccpwwebticker li p+p{ margin-right: 10px;}
+.ccpwwebticker li p span:first-child{ margin-right: 10px;}
+.ccpwwebticker li.ccpw_page_title{ border: 0; margin-left: 20px;font-size: 14px;}
+.price-value { font-size: 14px;}
+.ccpw_coin_info span.name {  font-size: 14px;}
+.ccpw_up_entity, .up .ccpw_price_pertge{ color: #02cd36;}
+.ccpw_down_entity, .down .ccpw_price_pertge{ color: #ff0000;font-weight: 400;}
+.price-value p{display: inline-block; margin: 0 10px 0 0;}
+
+/*Price chart*/
+body .ccpw-special-heading-tag{ padding: 0; margin: 0; float: left; position: relative; z-index: 9; overflow: hidden; background: #fff; font-weight: normal;}
+body .ccpw-special-heading-border { height: 1.6em;position: relative; overflow: hidden;}
+body .ccpw-special-heading-inner-border{ border-color: #666666;display: block; width: 100%; margin-left: 15px; border-top-style: solid; border-top-width: 1px; position: relative; top: 50%; opacity: 0.15;}
+body .ccpw-special-heading{ margin-bottom: 15px;}
+body .coin_details {margin-bottom: 40px; padding: 5px 10px;}
+body .coin_details ul{ display: inline-flex;align-items: center;list-style: none;margin: 0;padding: 0}
+body .coin_details ul li{ margin: 0; padding: 0;}
+body .coin_details ul li + li{ margin-left: 60px; }
+body .ccpw_col_2 .coin_details ul {justify-content:space-between; margin-left:0;}
+body .ccpw_col_2 .coin_details ul li+ li{margin-left:0;}
+body .coin_details .ccpw_icon img{ max-width: 50px;}
+body .ticker-name{ font-size: 16px;text-align: center;}
+body .ticker-name strong { font-weight: 600; }
+body .ticker-name span{ display: block}
+body .coin_details .c_info { font-size: 18px; color: #000;}
+body .coin_details .c_info strong{ text-align: center; padding: 0 20px; display: block;font-weight: 600; font-size: 13px;margin-bottom: 3px; width: 100%;}
+body .ccpw_chartdiv{ margin-bottom: 80px;}
+body .ccpw_chartdiv .amChartsInputField{ padding: 3px; font-size: 14px; background: rgba(243,243,243,.65); border-radius: 3px;color: #222; margin: 0 2px;}
+body .amcharts-period-selector-div input[type="button"]{ padding: 7px;border-radius: 0;font-weight: normal}
+body .amcharts-period-selector-div input[type="button"]:hover{background: rgba(50,50,50,.61);color: #fff;}
+body .amcharts-period-selector-div input[type="button"].amcharts-period-input-selected{padding: 10px;}
+body .amcharts-export-menu{ margin-top: 38px;}
+body .amcharts-export-menu li  {margin:0;}
+body .advanced_style.graph_info .c_info strong{ color: #fff;text-shadow: rgba(0,0,0,0.5) 0 0 1px;}
+body .advanced_style .ticker-name{ color: #fff;}
+body .graph_info{ display: inline-flex; width: 100%; align-items: center;position: relative;z-index: 0;padding: 15px;}
+body .advanced_style.graph_info:after{content: "";background: rgba(0,0,0,0.3); position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -1;}
+body .graph_info ul{ width: 100%; margin: 0;padding: 0}
+
+body .cp-cryptocurrencies-table .ccpw_price.up{ color: #02cd36;}
+body .cp-cryptocurrencies-table .ccpw_price.down{ color: #ff0000;}
+body .tooltip_content .currency_name{ font-size: 18px; margin-bottom: 10px;display: block;}
+body .tooltip_content p { margin-bottom: 2px; display: block;padding: 5px 0 0; background: rgba(255,255,255,0.5);border-bottom: #ddd 1px solid; text-shadow: #000 1px 1px 1px; font-size:12px;}
+body .tooltipster-box{ box-shadow: rgba(0,0,0,0.2) 0 0 5px;}
+
+/*News ticker*/
+li.newswebticker a{box-shadow:none; text-decoration:none;}
+li.newswebticker a:hover{text-decoration:underline;}
+li.newswebticker img{ border-radius:2px; margin-right:10px;}
+ul.ccpwwebticker li.newswebticker {margin: 0px;}
+.ccpw_cp-table img, .cp-table img {display: inline-block;}
+.amChartsPeriodSelector fieldset div:nth-child(3) { padding-right: 60px; padding-top: 10px; }
+.mask li .tooltip_templates {display: none;}
+.ccpw_nocal_data{font-size: 20px;color: #ff0000;}
+
+@media screen and (max-width:1200px){
+body .ccpw_col_2 .graph_info ul{ flex-wrap: wrap; justify-content: center;margin: 0;padding: 0}
+body .ccpw_col_2 .coin_details ul li { width: 100%; text-align: center; padding: 0;}
+body .ccpw_col_2 .coin_details .c_info { width: auto; margin: 5px 10px 0; text-align: center;}
+body .ccpw_col_2 .coin_details ul li + li { margin-left: 0;}
+body .ccpw_col_2 .ticker-name span{ display: inline-block; margin-left: 3px;}
+body .ccpw-price-lable ul li .ccpw_icon { margin-right: 5px;}
+    
+}
+
+@media screen and (max-width:1025px){
+    body .amcharts-period-selector-div input[type="button"] { padding: 5px; font-size: 12px;}
+    body .amcharts-period-selector-div input[type="button"].amcharts-period-input-selected { padding: 5px;}
+    body .ccpw_chartdiv .amChartsInputField{ font-size: 12px;}
+}
+
+@media screen and (max-width:991px){
+    body .ccpw_col_3 .graph_info{ padding: 10px;}
+}
+
+@media screen and (max-width:767px){
+    body .coin_details ul{ justify-content: space-between;}    
+    body .coin_details ul li + li { margin-left: 10px;}
+    body .coin_details .c_info { font-size: 16px; line-height: 24px;}
+    body .ticker-name { font-size: 14px; line-height: 24px;}
+    body .amcharts-period-selector-div fieldset > div{ width: 100%; margin: 5px 0; font-size: 14px;}
+}
+
+@media screen and (max-width:480px){
+    body .coin_details ul{ flex-wrap: wrap; justify-content: center;}
+    body .coin_details li{ width: auto; text-align: center; margin: 0}
+    body .coin_details li.c_info{ width: 100%;}
+    body .coin_details .c_info strong { text-align: center; display: inline-block;padding: 0 5px; font-size: 16px; width: auto;}
+    body .coin_details .c_info strong + div { display: inline-block;}
+    body .coin_details ul li + li { margin-left: 0;}
+    body .ticker-name { font-size: 16px; line-height: 18px; }
+    body .amcharts-period-selector-div input[type="button"] { font-size: 11px;}
+    body .coin_details .ccpw_icon img{ margin-right: 10px;}
+    body .coin_details li .ccpw_icon{ margin-bottom: 0;}
+    body .coin_details .c_info { font-size: 14px; line-height: 22px;}
+    body .ccpw_col_1 .ccpw_card-2 { max-width: 100%;}
+    body .ticker-name span { display: inline-block; margin-left: 5px;}
+    body .coin_details ul li{ width: 100%;}
+}
+
