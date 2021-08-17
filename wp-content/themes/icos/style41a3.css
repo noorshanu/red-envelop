@@ -3703,8 +3703,8 @@ select:focus {
   z-index: 2;
   -ms-border-radius: 40px;
   border-radius: 40px;
- background-image: linear-gradient(to right, #e70103 0%, #fcb058 100%);
-}
+ background-image: linear-gradient(to right, #e70103 0%, #fcb058 100%) !important;
+
 }
 
 .io-azure .btn {
