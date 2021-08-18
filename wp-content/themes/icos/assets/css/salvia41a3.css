@@ -1290,9 +1290,9 @@
   margin: 0 3px;
 }
 .social-link-exp li a [class*=fa-] {
-  line-height: 32px;
-  height: 30px;
-  width: 30px;
+  line-height: 52px;
+  height: 50px;
+  width: 50px;
   text-align: center;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.15);
