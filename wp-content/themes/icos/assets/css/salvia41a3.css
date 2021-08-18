@@ -15,7 +15,7 @@
      color: #353c65;
 }
 .section-bg-salvia p {
-     color: #af9cff;
+     color: #ee8e21;
 }
 .theme-salvia {
   font-family: "Roboto", sans-serif;
@@ -1803,8 +1803,8 @@
      border-color: #2bc9b4;
 }
  .social-link-exp li a [class*=fa-] {
-     background: rgba(255, 255, 255, 0.15);
-     color: #fff;
+     background: rgb(236 137 26);
+     color: #ba0101;
 }
  .social-link-exp li a span {
      color: rgba(255, 255, 255, 0.3);
