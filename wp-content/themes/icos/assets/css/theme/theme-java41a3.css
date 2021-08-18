@@ -88,7 +88,8 @@ a:hover, a:focus, a:active { color: #7a0fff; }
 .navbar-toggler { background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
 .navbar-toggler:hover { background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
 
-.btn {  background-image: linear-gradient(to right, #e70103 0%, #fcb058 100%) !important;; }
+.btn {  background-image: linear-gradient(to right, #e70103 0%, #fcb058 100%) !important;
+	; }
 .btn:before { background-image: linear-gradient(to right, #e70103 0%, #fcb058 100%) !important; }
 .btn.btn-alt, .io-azure .countdown-box .btn.btn-alt { background-image: -webkit-linear-gradient(left, #7a0fff 0%, #46bdf4 100%); background-image: linear-gradient(to right, #7a0fff 0%, #46bdf4 100%); }
 .btn.btn-alt:before, .io-azure .countdown-box .btn.btn-alt:before { background-image: -webkit-linear-gradient(left, #46bdf4 0%, #7a0fff 100%); background-image: linear-gradient(to right, #46bdf4 0%, #7a0fff 100%); }
