@@ -19,7 +19,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, p span,
 .widget-area .sidebar-widget ul li a:hover, .widget-area .sidebar-widget.widget_tag_cloud ul li a:hover, .post-content .blog-tags li a:hover,
 .blog-meta li a:hover, .theme-light .blog-meta li a:hover, .blog-texts .blog-title a:hover, .btn.btn-more { color: #46bdf4; }
 
-a { color: #46bdf4; }
+a { color: #e78619; }
 a:hover, a:focus, a:active { color: #7a0fff; }
 
 .theme-dark h1.color-secondary, .theme-dark h2.color-secondary, .theme-dark h3.color-secondary, .theme-dark h4.color-secondary, .theme-dark h5.color-secondary, .theme-dark h6.color-secondary, .theme-dark blockquote.color-secondary, .light h1.color-secondary, .light h2.color-secondary, .light h3.color-secondary, .light h4.color-secondary, .light h5.color-secondary, .light h6.color-secondary, .light blockquote.color-secondary { color: #7a0fff; }
