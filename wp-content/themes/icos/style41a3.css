@@ -231,7 +231,7 @@ body {
 body {
   /*background: #0b0c22;*/
   background-image: url("back2.jpeg");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   color: #fff;
 }
@@ -432,7 +432,7 @@ a:hover, a:focus, a:active {
 }
 
 .section-bg {
-  background: #10122d;
+  /*background: #10122d;*/
 }
 
 .theme-light .section-bg {
@@ -444,7 +444,7 @@ a:hover, a:focus, a:active {
 }
 
 .section-bg-alt {
-  background: #0b0c22;
+ /* background: #0b0c22;*/
 }
 
 .theme-light .section-bg-alt {
@@ -6402,7 +6402,7 @@ select:focus {
 }
 
 .footer-particle {
-  background: #15257b url(assets/images/footer-bg-azure.png) no-repeat 50% 0/contain;
+  background: #15257b00 url(assets/images/footer-bg-azure.png) no-repeat 50% 0/contain;
 }
 
 .footer-brand,
@@ -7399,7 +7399,7 @@ header:not(.has-fixed) .menu-item-has-children > span{
 
 /*BLOG*/
 .section-bg-dark {
-  background-color: #08091b;
+  /*background-color: #08091b;*/
 }
 
 .theme-light .section-bg-dark {
