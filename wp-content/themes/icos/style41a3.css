@@ -229,7 +229,10 @@ body {
 }
 
 body {
-  background: #0b0c22;
+  /*background: #0b0c22;*/
+  background-image: url("back2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
 }
 
