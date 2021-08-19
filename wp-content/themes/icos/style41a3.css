@@ -7091,7 +7091,7 @@ header:not(.has-fixed) .menu-item-has-children > span{
   margin: -35px 0 0 -35px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #41faa4;
+  border-top-color: #e70103;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   z-index: 1001;
@@ -7120,7 +7120,7 @@ header:not(.has-fixed) .menu-item-has-children > span{
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #16a3fe;
+  border-top-color: #e70103;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
